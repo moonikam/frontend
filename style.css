@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    padding: 25px;
+    background-color: rgb(48, 0, 40);
+    }
+
+body {
+       font-family: 'Poppins', sans-serif;
+}
+
+ /* Estilos */
+
+
+h1, h2{
+    color: coral;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+         }
+
+h3, h4, h5{
+     color:azure;
+     padding-top: 10px;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
+ p{
+     color: rgb(253, 244, 231);
+     font-size: medium;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+
+#header-superior{
+    /* Define el color de fondo */
+    background-color: cornflowerblue;
+}
+#ap-icon{
+    /* Especifica la anchura */
+    height:80px;
+}
+#linkedin-icon{
+    /* Especifica la anchura */
+    height: 30px;
+}
+
+#github-icon{
+    /* Especifica la anchura */
+    height: 30px;
+}
+#red-social{
+    float: right;
+    margin-top:25px;
+    margin-right: 10px;
+}
+#banner{
+    width: 100%;
+}
+.row{
+    padding: 20px 20px 20px 20px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: azure;
+    
+}
+
+.link-button:hover{
+    text-decoration: none;
+    color: coral;
+    font-style: oblique;
+    }
+
+.home_area{
+    background-color: #AC00B5;
+    padding: 0px 60px 2em;
+   }
+
+.about{
+    background-color: #AC00B5;
+    padding: 0px 60px 0px;
+}
+#acerca-de{
+    background-color: aliceblue;
+}
+
+
+.sobre_mi{ 
+    padding: 0px;
+    }
+
+
+#educacion_container{
+    padding: 60px 60px;
+    background-color: rgb(90, 0, 90);
+}
+
+.cv-button{
+ color: white;
+ background-color: #AC00B5;
+ border-radius: 5px;
+ padding: 1em  2em;
+ border-style: hidden;
+ margin: 2em 0em;
+ }
+
+
+
+#skills{
+    padding: 60px 60px;
+    background-color: #AC00B5;
+}
+
+#servicios{
+    padding: 60px 60px;
+    background-color: rgb(90, 0, 90);
+
+}
+
+
+/* Color bullet lista */
+
+ul {
+            color: coral; 
+    }
+
+
+#contacto {
+    background-color:rgb(90, 0, 90) ;
+    padding: 60px;
+    
+}
+
+#container {
+  margin: 30px 0px;
+         
+ }
+
+
+ /*Skills Area */
+
+.container_skills {
+    width: 100%; /* Full width */
+    background-color: rgb(206, 206, 206); 
+    margin-bottom: 12px;
+    }
+    
+    .skills {
+      text-align:end; 
+      padding-top: end; 
+      padding-bottom: end; 
+      color: azure;
+      padding-right: 8px;
+      font-weight: bolder;
+    
+    }
+    
+    .html {width: 90%; background-color:rgb(90, 0, 90); }
+    .css {width: 80%; background-color: coral;}
+    .js {width: 65%; background-color: #b30f69;}  
+    .angular {width: 60%; background-color: #808080;} 
+    .adobe {width: 90%; background-color:rgb(90, 0, 90); }
+    .figma {width: 60%; background-color: coral;}
+    .indesign {width: 75%; background-color: #b30f69;}  
+    .corel {width: 85%; background-color: #808080;} 
+    .skills_title{
+        text-align: start;
+    }
+
+
+ /* Area servicios */
+#servicios{
+ width: 100%;
+  place-items: center;
+  padding: 60px;
+  background-color: rgb(90, 0, 90);
+}
+
+.col-lg-4  {
+ width: 100%;
+ margin: 0px;
+ padding: 10px;
+ text-align:start;
+}
+
+.col-md-6 {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: start;
+   }
+
+.col-sm-12{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: start;
+    
+   }
+
+
+.cardservice {
+background: linear-gradient(to right, #6f0291 0%,coral 100%);
+ width: 100%;
+ height: 100%;
+ padding: 15px;
+ background-size: 100% 200%;
+ background-position: 0 2.5%;
+ border-radius: 5px;
+ box-shadow: 0 0 55px rgba(0, 0, 0, 0.12);
+ cursor: pointer;
+ 
+}
+.cardservice:hover{
+    background-size: 130%;
+}
+
+.icon-wrapper{
+    color: azure;
+    }
+
+ /* Area proyectos */
+#proyectos{
+    background-color:#AC00B5;
+    padding: 60px;
+    }
+
+  #proyectos img{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    }
+
+#proyectos img:hover {
+border: 5px solid #AC00B5;
+
+}
+
+#proyectos .col-lg-4{
+margin: 0px;
+padding: 10px;
+}
+
+#proyectos .col-md-6{
+margin: 0px;
+padding: 10px;
+}
+
+#proyectos .col-sm-12{
+margin: 0px;
+padding: 10px;
+}
+
+/* Area Contacto Formulario */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+
+   
+  input[type=submit] {
+    background-color:coral;
+    margin: 10px 0px;
+    color: white;
+    padding: 16px 60px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+ 
+  input[type=submit]:hover {
+    background-color:darkmagenta;
+    font-style: oblique;
+      }
+  
+  label {
+    color: azure;
+      }
+
+  /* Area footer */
+
+  footer {
+background-color: rgb(90, 0, 90);
+padding: 0px 70px 20px;
+
+  }
+
+
+  a:link.link{
+     text-decoration: none;
+    color: coral;
+     }
+    
+
+  /* Botón Go to top */
+  #myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: CORAL; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 6px 10px; /* Some padding */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+   
+  }
+
+
